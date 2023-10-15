@@ -1,0 +1,157 @@
+#sec1 {
+  .container-paragraph {
+    .row {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+
+      .col {
+        h2 {
+          margin: 0;
+          line-height: 0.2;
+          color: #4a4a4a;
+          font-size: 50px;
+        }
+      }
+
+      .col-5 {
+        p {
+          padding-top: 30px;
+          margin-bottom: 15px;
+          color: #4a4a4a;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .container-elements {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .col {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 30px;
+        width: 189.98px;
+        height: 127.5px;
+
+        a {
+          img {
+            width: 120px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec2 {
+  width: 100%;
+  padding: 150px;
+
+  .container-paragraph {
+    .row {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+
+      .col {
+        h2 {
+          margin: 0;
+          line-height: 0.2;
+          color: #4a4a4a;
+          font-size: 50px;
+        }
+
+        img {
+          width: 130px;
+          height: 5px;
+        }
+      }
+    }
+  }
+
+  .sec2-container {
+    .student-buttons {
+      .row-cols-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .col {
+          position: relative;
+          width: 168.41px;
+          height: 170px;
+          margin: 15px;
+
+          .col-img {
+            position: absolute;
+            width: 150px;
+            height: auto;
+            transform-style: preserve-3d;
+            transition: all 1s ease;
+            cursor: auto;
+
+            img {
+              width: 150px;
+              height: 150px;
+            }
+
+            .img-effect-of {
+              position: absolute;
+              backface-visibility: hidden;
+              width: 100%;
+              height: 100%;
+            }
+
+            .img-effect-on {
+              position: absolute;
+              backface-visibility: hidden;
+              width: 100%;
+              height: 100%;
+              transform: rotateX(180deg);
+              cursor: pointer;
+
+              .img-effect-on-content {
+                position: relative;
+
+                .img-effect-on-content-link {
+                  .overlay {
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                  }
+
+                  a {
+                    position: absolute;
+                    text-decoration: none;
+                    color: white;
+                    top: 6px;
+                    left: 15px;
+
+                    p {
+                      font-size: 13px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .col-img:hover {
+            transform: rotateX(180deg);
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+}

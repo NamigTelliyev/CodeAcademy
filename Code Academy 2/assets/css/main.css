@@ -1,0 +1,116 @@
+#sec1 .container-paragraph .row {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+#sec1 .container-paragraph .row .col h2 {
+  margin: 0;
+  line-height: 0.2;
+  color: #4a4a4a;
+  font-size: 50px;
+}
+#sec1 .container-paragraph .row .col-5 p {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+#sec1 .container-elements .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec1 .container-elements .row .col {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 189.98px;
+  height: 127.5px;
+}
+#sec1 .container-elements .row .col a img {
+  width: 120px;
+  height: auto;
+}
+
+#sec2 {
+  width: 100%;
+  padding: 150px;
+}
+#sec2 .container-paragraph .row {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+#sec2 .container-paragraph .row .col h2 {
+  margin: 0;
+  line-height: 0.2;
+  color: #4a4a4a;
+  font-size: 50px;
+}
+#sec2 .container-paragraph .row .col img {
+  width: 130px;
+  height: 5px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col {
+  position: relative;
+  width: 168.41px;
+  height: 170px;
+  margin: 15px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  cursor: auto;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img img {
+  width: 150px;
+  height: 150px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-of {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(180deg);
+  cursor: pointer;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content {
+  position: relative;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link .overlay {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  top: 6px;
+  left: 15px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link a p {
+  font-size: 13px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img:hover {
+  transform: rotateX(180deg);
+  transition: 1s;
+}
